@@ -1,0 +1,64 @@
+/**
+ * @name Nightcord
+ * @description Discord Re-Colored like the Android and iOS Version
+ * @author Shiny
+ * @version 1.0.0
+ * @authorId 536921204020346900
+ */
+
+/* DONT TOUCH THIS!!! */
+
+.theme-dark { /* Dark Mode */
+
+  /* Header Color */
+  --header-primary: #fff;
+  --header-secondary: #99aab5;
+
+  /* Text Color */
+  --text-normal: #dcddde;
+  --text-muted: #84888f;
+  --interactive-normal: #b9bbbe;
+  --interactive-hover: #dcddde;
+  --interactive-active: #ffffff;
+  --interactive-muted: #4f545c;
+
+  /* Background Color */
+  --background-primary: #1c1d22;
+  --background-secondary: #141318;
+  --background-secondary-alt: #141318;
+  --background-tertiary: #141318;
+  --background-tertiary-alt: #141318;
+  --background-accent: #40444b;
+  --background-floating: #141318;
+  --background-modifier-hover: rgba(79,84,92,0.16);
+  --background-modifier-active: rgba(79,84,92,0.24);
+  --background-modifier-selected: rgba(36, 39, 48);
+  --background-modifier-accent: #242730;
+  --accent-color: #7289da;
+
+  /* Folder Color */
+  --folder-color: #6e86d6;
+  --folder-color-light: #747f8d;
+
+
+  /* Scrollbars Color */
+  --scrollbar-thin-thumb: transparent;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #2d2d37;
+  --scrollbar-auto-thumb-hover: #2d2d37;
+  --scrollbar-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
+  --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
+
+  /* Chat Box Color */
+  --channeltextarea-background: #242730;
+  --channeltextarea-background-hover: #242730;
+
+  /* Square avatar addons */
+  --avatar-roundess: 4px;
+
+  /* Mac Titlebar addons */
+  --close-button-color: #f04747;
+  --maximize-button-color: #43b581;
+  --minimize-button-color: #faa61a;
+}
